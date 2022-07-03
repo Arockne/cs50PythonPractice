@@ -1,5 +1,11 @@
-# Ask user for their name
-name = input("What's your name? ").strip().title()
+#has the same default parameter value as javascript 
+def main():
+  name = input("What's your name? ")
+  hello(name)
 
-# Say hello to user
-print(f"Hello, {name}")
+
+def hello(to="world"):
+  print(f"Hello {to}")
+
+
+main()
